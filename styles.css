@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Nunito+Sans:wght@700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(167, 86, 99);
+}
+
+/*--menú de navegación--*/
+
+header ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 116, 125);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+header li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding: auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+header ul ul li {
+    display: block;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+
+/*---*/
+
+header {
+    background-image: url(https://media.istockphoto.com/photos/sky-cloud-pink-love-sweet-love-color-tone-for-wedding-card-background-picture-id1180184210?k=6&m=1180184210&s=170667a&w=0&h=WPBHZCguJXwLePQ3gNAjyJ1CbQ7QFVc51Efe2mas1Yc=);
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.514);
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    margin: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+img.logo {
+    width: 10%;
+    height: 10%;
+    text-align: center;
+}
+
+/*------inicio------*/
+
+.papa {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    border: 4mm ridge rgb(129, 59, 71);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+div.background {
+    background-color: rgb(167, 86, 99)
+}
+
+div.inicio {
+    margin-bottom: 20px;
+}
+
+header h1.titulo {
+    color: rgb(129, 59, 71);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.tituloPrincipal {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*------quien soy------*/
+
+.contenedorDos {
+    background-color: rgb(167, 86, 99);
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+main .bio {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#biografia {
+    color: rgb(255, 255, 255);
+}
+
+.dos {
+    color: rgb(255, 255, 255);
+}
+
+.perfil {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+/*------especialidades------*/
+
+select.opciones {
+    background-color: rgba(134, 74, 84, 0.589);
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(252, 230, 234);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 30%;
+}
+
+h2.tratamientos {
+    margin-left: 30px;
+    color: rgb(252, 230, 234);
+}
+
+div#lista {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+div#listaDos {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-right: 40px;
+}
+
+ul.problemas li {
+    background-color: rgba(207, 151, 159, 0.336);
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid rgb(252, 230, 234);
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px;
+}
+
+li a {
+    color: rgb(252, 230, 234);
+    text-decoration: none;
+}
+
+/*------galeria------*/
+
+main.youtube {
+    width: 50%;
+    margin: auto;
+}
+
+div.video {
+    background-attachment: scroll;
+    border: 3px solid rgb(173, 116, 125);
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*------contacto------*/
+
+.contenedor {
+    margin: 0 auto;
+    margin-bottom: auto;
+}
+
+div.campos {
+    border: 4mm ridge rgb(129, 59, 71);
+    background-image: url(https://media.istockphoto.com/photos/sky-cloud-pink-love-sweet-love-color-tone-for-wedding-card-background-picture-id1180184210?k=6&m=1180184210&s=170667a&w=0&h=WPBHZCguJXwLePQ3gNAjyJ1CbQ7QFVc51Efe2mas1Yc=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.camposDos {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.checkbox {
+    margin-bottom: 5%;
+}
+
+.tuto h2 {
+    margin-top: 3%;
+}
+
+/*------footer------*/
+
+footer {
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    clear: both;
+    background-color: rgb(173, 116, 125);
+    color: rgba(0, 0, 0, 0.637);
+    margin: 1;
+}
+
+@media only screen and (max-width: 823px) {
+    img.logo {
+        width: 15%;
+        height: 15%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    header h1.titulo {
+        color: rgb(129, 59, 71);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        margin-bottom: auto;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .tituloPrincipal {
+        font-size: 20px;
+        text-align: center;
+    }
+    .carousel {
+        border: 4mm ridge rgb(129, 59, 71);
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    /*----menu de navegacion----*/
+    header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(173, 116, 125);
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+    }
+    header li {
+        display: inline-block;
+        width: 25%;
+        position: relative;
+        padding: auto;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+    }
+    header li a:hover {
+        color: rgb(0, 0, 0);
+    }
+    header ul ul li {
+        display: block;
+    }
+    header ul li:hover ul {
+        display: block;
+    }
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10px;
+        margin: 40px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    /*----quienSoy----*/
+    main .bio {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+    }
+    .dos {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    /*----especialidades----*/
+    select.opciones {
+        background-color: rgba(134, 74, 84, 0.589);
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgb(252, 230, 234);
+        font-weight: bold;
+        font-size: 9px;
+    }
+    h2.tratamientos {
+        margin-left: 30px;
+        color: rgb(252, 230, 234);
+    }
+    div#lista {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+    div#listaDos {
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding-right: 40px;
+    }
+    ul.problemas li {
+        background-color: rgba(207, 151, 159, 0.336);
+        font-family: 'Nunito Sans', sans-serif;
+        border: 1px solid rgb(252, 230, 234);
+        font-weight: bold;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2px;
+    }
+    li a {
+        color: rgb(252, 230, 234);
+        text-decoration: none;
+        font-size: 10px;
+    }
+    /*----contacto----*/
+    .contenedor {
+        margin: 0 auto;
+        margin-bottom: auto;
+    }
+    div.campos {
+        border: 4mm ridge rgb(129, 59, 71);
+        background-image: url(https://media.istockphoto.com/photos/sky-cloud-pink-love-sweet-love-color-tone-for-wedding-card-background-picture-id1180184210?k=6&m=1180184210&s=170667a&w=0&h=WPBHZCguJXwLePQ3gNAjyJ1CbQ7QFVc51Efe2mas1Yc=);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: 9px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .camposDos {
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+    }
+    .checkbox {
+        margin-bottom: 5%;
+    }
+    .tuto h2 {
+        margin-top: 3%;
+    }
+    /*----footer----*/
+    footer {
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+        clear: both;
+        background-color: rgb(173, 116, 125);
+        color: rgba(0, 0, 0, 0.637);
+        margin: 1;
+    }
+}
+
+
+@media only screen and (min-width: 812px) {
+    div.video {
+        background-attachment: scroll;
+    }
+}
+
+/*------Fin------*/
